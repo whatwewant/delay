@@ -12,7 +12,12 @@ $ npm install @zcorky/delay
 ## Usage
 
 ```js
-const delay = require('@zcorky/delay');
+const delay = require('@zcorky/delay').delay;
+// import { delay } from '@zcorky/delay'; // ts or es6
+
+function bar() {
+  console.log('time: ', Date.now());
+}
 
 (async () => {
 	bar();
