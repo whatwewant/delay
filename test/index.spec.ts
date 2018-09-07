@@ -1,6 +1,6 @@
 import { expect } from 'chai';
 
-import delay from '../src';
+import { delay } from '../src';
 
 describe('delay', () => {
   let val = 0;
